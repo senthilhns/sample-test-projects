@@ -1,0 +1,10 @@
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouPlayTheGameOfLife.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateAGrid.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouReadAGridFromAString.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouPrintAGrid.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/RegressionTests.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/integration/WhenYouStoreGamesInADatabase.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateANewUniverse.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/domain/WhenYouCreateACell.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/SlowTests.java
+/opt/hns/test-resources/game-of-life-master/gameoflife-core/src/test/java/com/wakaleo/gameoflife/test/categories/IntegrationTests.java
