@@ -4,13 +4,13 @@
       "pattern": "mvn_repo_deploy_snapshots_01/**/*.jar",
       "target": "./downloads/jars/",
       "flat": "false",
-      "recursive": true
+      "recursive": "true"
     },
     {
       "pattern": "mvn_repo_deploy_snapshots_01/**/*.java",
       "target": "./downloads/src/",
       "flat": "false",
-      "recursive": true
+      "recursive": "true"
     }
   ]
 }
