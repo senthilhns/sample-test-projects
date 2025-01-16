@@ -2,11 +2,11 @@
   "files": [
     {
       "pattern": "/harness/game-of-life-master/**/*.jar",
-      "target": "mvn_repo_resolve_snapshots_01/upload/"
+      "target": "mvn_repo_deploy_snapshots_01/upload/"
     },
     {
       "pattern": "/harness/game-of-life-master/**/*.java",
-      "target": "mvn_repo_resolve_snapshots_01/upload/src/"
+      "target": "mvn_repo_deploy_snapshots_01/upload/src/"
     }
   ]
 }
