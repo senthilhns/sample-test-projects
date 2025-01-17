@@ -1,0 +1,13 @@
+{
+  "files": [
+    {
+      "pattern": "C:\\harness\\game-of-life-master\\**\\*.jar",
+      "target": "mvn_repo_deploy_snapshots_01/upload/"
+    },
+    {
+      "pattern": "C:\\harness\\game-of-life-master\\**\\*.java",
+      "target": "mvn_repo_deploy_snapshots_01/upload/src/"
+    }
+  ]
+}
+
