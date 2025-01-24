@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="b767b8e3-8760-4ba8-ad90-54d7dcbd83e5" name="@ubuntu 2025-01-22 23:28:03" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-01-22T23:28:03.2969990+05:30" queuing="2025-01-22T23:28:03.2969990+05:30" start="2025-01-22T23:28:02.4627048+05:30" finish="2025-01-22T23:28:03.3060394+05:30" />
+  <TestSettings name="default" id="bd0166ae-ef8d-44dc-a509-661c2265dd92">
+    <Deployment runDeploymentRoot="_ubuntu_2025-01-22_23_28_03" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="921e3d8c-8016-407f-8a9b-dc5b1dd2d849" testId="521b68f6-0c48-2ab5-54c0-4d8f9df58ada" testName="FailingTest" computerName="ubuntu" duration="00:00:00.0210200" startTime="2025-01-22T23:28:03.1004014+05:30" endTime="2025-01-22T23:28:03.1213744+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="921e3d8c-8016-407f-8a9b-dc5b1dd2d849">
+      <Output>
+        <ErrorInfo>
+          <Message>Suite1 - Failing test.</Message>
+          <StackTrace>   at nunit_multi.Tests.Suite1.Suite1Tests.FailingTest() in /opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/Suite1/Suite1Tests.cs:line 28
+
+1)    at nunit_multi.Tests.Suite1.Suite1Tests.FailingTest() in /opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/Suite1/Suite1Tests.cs:line 28
+
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8e4bf80-8ebe-4f09-89a5-afe687314162" testId="df555012-ca22-6d8f-1a16-c53044adea1f" testName="Test1" computerName="ubuntu" duration="00:00:00.0004390" startTime="2025-01-22T23:28:03.1225057+05:30" endTime="2025-01-22T23:28:03.1229454+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8e4bf80-8ebe-4f09-89a5-afe687314162">
+      <Output>
+        <StdOut>Suite1 - Test1 passed.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed8300ee-b0c9-4dc0-9e66-973d3459b9f9" testId="5c1c3121-fb25-479e-cf1c-cac1e9c75124" testName="Test2" computerName="ubuntu" duration="00:00:00.0002000" startTime="2025-01-22T23:28:03.1229935+05:30" endTime="2025-01-22T23:28:03.1231935+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed8300ee-b0c9-4dc0-9e66-973d3459b9f9">
+      <Output>
+        <StdOut>Suite1 - Test2 passed.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test2" storage="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/tests/bin/debug/net8.0/tests.dll" id="5c1c3121-fb25-479e-cf1c-cac1e9c75124">
+      <Execution id="ed8300ee-b0c9-4dc0-9e66-973d3459b9f9" />
+      <TestMethod codeBase="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/bin/Debug/net8.0/Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="nunit_multi.Tests.Suite1.Suite1Tests" name="Test2" />
+    </UnitTest>
+    <UnitTest name="Test1" storage="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/tests/bin/debug/net8.0/tests.dll" id="df555012-ca22-6d8f-1a16-c53044adea1f">
+      <Execution id="e8e4bf80-8ebe-4f09-89a5-afe687314162" />
+      <TestMethod codeBase="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/bin/Debug/net8.0/Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="nunit_multi.Tests.Suite1.Suite1Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="FailingTest" storage="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/tests/bin/debug/net8.0/tests.dll" id="521b68f6-0c48-2ab5-54c0-4d8f9df58ada">
+      <Execution id="921e3d8c-8016-407f-8a9b-dc5b1dd2d849" />
+      <TestMethod codeBase="/opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/bin/Debug/net8.0/Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="nunit_multi.Tests.Suite1.Suite1Tests" name="FailingTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="521b68f6-0c48-2ab5-54c0-4d8f9df58ada" executionId="921e3d8c-8016-407f-8a9b-dc5b1dd2d849" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df555012-ca22-6d8f-1a16-c53044adea1f" executionId="e8e4bf80-8ebe-4f09-89a5-afe687314162" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c1c3121-fb25-479e-cf1c-cac1e9c75124" executionId="ed8300ee-b0c9-4dc0-9e66-973d3459b9f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started
+Running selected tests in /opt/hns/test-resources/test-result-aggregator/nunit/nunit-multi/src/Tests/bin/Debug/net8.0/Tests.dll
+   NUnit3TestExecutor discovered 3 of 3 NUnit test cases using Current Discovery mode, Non-Explicit run
+Test1: Suite1 - Test1 passed.
+Test2: Suite1 - Test2 passed.
+NUnit Adapter 4.6.0.0: Test execution complete
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
