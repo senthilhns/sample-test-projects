@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.project.CalculatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-22T16:11:08" hostname="ubuntu" time="0.129">
+<testsuite name="com.example.project.CalculatorTests" tests="5" skipped="4" failures="3" errors="2" timestamp="2025-01-22T16:11:08" hostname="ubuntu" time="0.129">
   <properties/>
   <testcase name="1 + 1 = 2" classname="com.example.project.CalculatorTests" time="0.024"/>
   <testcase name="0 + 1 = 1" classname="com.example.project.CalculatorTests" time="0.023"/>
