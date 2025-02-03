@@ -1,8 +1,7 @@
 {
   "files": [
     {
-      "pattern": "/harness/add_deps/spec_test/**/*.jar"
-    }
+      "pattern": "/harness/add_deps/spec_test/*.jar"    }
   ]
 }
 
