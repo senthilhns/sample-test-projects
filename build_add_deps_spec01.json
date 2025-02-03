@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "pattern": "/harness/add_deps/spec_test/**/*.jar",
+      "recursive": true
+    }
+  ]
+}
+
